@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 dotenv.config()
  
  const Connection = ()=>{
-    mongoose.connect(process.env.MONGODB_URL,{useNewUrlParser: true})
+    mongoose.connect(process.env.MONGODB_URL)
 
     mongoose.connection.on('connected',()=>{
         console.log("Database Connected");

@@ -18,7 +18,7 @@ const Tasks = () => {
   
   const userid = authData.userid;
     
-  console.log("task"+JSON.stringify(tasks));
+  // console.log("task"+JSON.stringify(tasks));
 
   useEffect(() => {
     
