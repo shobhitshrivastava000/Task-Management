@@ -1,0 +1,125 @@
+body{
+
+  justify-content: center;
+  align-items: center;
+}
+
+.home{
+  width: 50%;
+  margin: 50px auto;
+  
+}
+
+header{
+  text-align: center;
+}
+
+header h1{ 
+  font-size: 50px;
+  font-weight: 150;
+  color: rgb(4, 35, 59);
+}
+input{
+  color: rgb(14, 35, 35);
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px  solid black;
+  
+
+}
+
+.task{
+  background-color: #34495e;
+  padding: 12px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.task span{
+  color: #fff;
+}
+
+.icon{
+  float: right;
+  margin-right: 20px;
+} 
+article{
+  display: grid;
+}
+
+.edit-task{
+  width: 70%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+
+}
+
+.button{
+  margin: 5px 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.button.selected{
+  color: #fff;
+  background-color: #6c6777;
+}
+
+.button.clear{
+  float: right;
+  color: #fff;
+  background-color: rgb(184, 7, 7);
+  width: 170px;
+
+}
+
+
+
+/* login */
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.w-100 {
+  width: 100%;
+}
